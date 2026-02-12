@@ -24,6 +24,9 @@ const uniVowelModifiers = {
 };
 const uniReplacements = [
     { pattern: 'ඩ්හ්h', replacement: 'ධ්' }, // dhh
+    { pattern: 'ද්හ්', replacement: 'ධ්' },   // dhh
+    { pattern: 'ඩ්හ්', replacement: 'ද්' },   // dh
+    { pattern: 'ස්හ්', replacement: 'ශ්' },   // sh
     { pattern: 'ට්h', replacement: 'ත්' },   // th
     { pattern: 'බ්h', replacement: 'භ්' },   // bh
     { pattern: 'අa', replacement: 'ආ' },
